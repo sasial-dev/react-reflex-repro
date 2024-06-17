@@ -1,0 +1,22 @@
+{
+  "name": "plugin-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rbxtsc",
+    "dev": "rbxtsc --watch --verbose"
+  },
+  "dependencies": {
+    "@rbxts/react": "0.4.0",
+    "@rbxts/react-reflex": "0.3.4",
+    "@rbxts/react-roblox": "0.4.0",
+    "@rbxts/reflex": "4.3.1"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "2.3.0-types.1",
+    "@rbxts/types": "1.0.781",
+    "roblox-ts": "2.3.0-dev-d7847ea",
+    "typescript": "5.4.5"
+  }
+}
